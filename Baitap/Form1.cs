@@ -21,5 +21,10 @@ namespace Baitap
         {
 
         }
+
+        private void Password_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
