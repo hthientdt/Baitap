@@ -29,7 +29,20 @@ namespace Baitap
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string username = txtUserName.Text;
+            string password = txtpassword.Text;
 
+       
+            {
+                // Đăng nhập thành công
+                MessageBox.Show("Đăng nhập thành công!");
+                // Thực hiện các hành động khác sau khi đăng nhập thành công (nếu cần)
+                Form2 successForm = new Form2();
+                this.Hide();
+                successForm.ShowDialog();
+                this.Close();
+            }
+          
         }
     }
 }
